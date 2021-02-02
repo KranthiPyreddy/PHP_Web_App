@@ -1,9 +1,10 @@
+
 <!DOCTYPE HTML>
 <html>
 <body>
 	<h1>
-    	PHP Website
+    	PHP Website Lab 4
     </h1>
-    <a href='form.php'>Click here to get in</a>
+    <a href='login.php'>Click here to log in</a>
     </body>
 </html>
