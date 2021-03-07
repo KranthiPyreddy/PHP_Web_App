@@ -16,7 +16,7 @@
 							<input type = "text" name = "department" placeholder = "Enter Course Department"/> <br>
 							<input type = "text" name = "program" placeholder = "Enter Program Name"/> <br>
 							
-							<button type = "submit" name = "insert" > Insert</button>
+							<button type = "submit" name = "insert" >Insert</button>
 						</center>
 					 </td>
 				</tr>

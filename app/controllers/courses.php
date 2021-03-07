@@ -25,5 +25,11 @@
 			
 		}
 	}
+		public function insertData() {
+			$insert = $this->model('Insert');
+			$InsertData = $insert->InsertData();
+			$this->view('courses/insert', [':id' => $id, ':course_id' => $course_id, ':course_name' => $course_name, ':department' =>$department, ':program' => $program]);
+			die;
+		}
 	}
 ?>

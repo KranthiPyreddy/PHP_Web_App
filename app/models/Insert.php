@@ -14,7 +14,7 @@ class Insert {
 	$department = $_POST['course_Department'];
 	$program = $_POST['program'];
 
-	$statement = "INSERT INTO courses ('id','course_id','course_name','department','program') VALUES (:id, :course_id, 		:course_name, :department, :program ");
+	$statement = "INSERT INTO courses ('id','course_id','course_name','department','program') VALUES (:id, :course_id, :course_name, :department, :program)";
 	$statementResult = $db->prepare($statement);
 	$statementExecute->execute(array(':id' => $id, ':course_id' => $course_id, ':course_name' => $course_name, ':department' =>$department, ':program' => $program));
 
