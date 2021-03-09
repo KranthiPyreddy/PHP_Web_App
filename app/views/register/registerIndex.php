@@ -15,7 +15,7 @@
 			<div class="form-group">
 				<label for="name">Username</label>
 				<input required type="text" class="form-control" name="username">
-				<?php /*
+			  <?php/*
 				<?php if (isset($name_error)): ?>
 				<span><?php echo $name_error; ?></span>
 				<?php endif ?> */ ?>

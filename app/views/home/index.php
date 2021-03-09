@@ -12,6 +12,8 @@
     <div class="row">
         <div class="col-lg-12">
             <p> <?=$data['message']?> </p>
+			<a type="button" href="logout/index" class="btn btn-info btn-lg">
+				<span class="glyphicon glyphicon-log-out"></span>Log out</a>
         </div>
     </div>
 
