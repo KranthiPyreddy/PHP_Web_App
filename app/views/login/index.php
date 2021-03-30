@@ -1,15 +1,17 @@
-<?php require_once 'app/views/templates/headerPublic.php' ?>
+<?php require_once 'app/views/templates/headerPublic.php'?>
 <main role="main" class="container">
     <div class="page-header" id="banner">
         <div class="row">
             <div class="col-lg-12">
                 <h1>Enter the details below</h1>
 				
-				<?php if ($_SESSION['failedAuth'])  ?>
-				<P>
-					Login failed. Use right username and password
-				</P>
-				
+				<?php if ($_SESSION['failedAuth'])
+				echo '<P> Login failed, Username & Password must be a valid, try again </P>'; 
+				if($data['message']){?>
+					<?= $data['message'];?>
+				<?php }
+				?>
+		
             </div>
         </div>
     </div>
