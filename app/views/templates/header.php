@@ -29,7 +29,13 @@ if (!isset($_SESSION['auth'])) {
       <li class="nav-item">
         <a class="nav-link" href="/courses">Courses</a>
       </li>
-		
+		 <li class="nav-item">
+        <a class="nav-link" href="/permissions/manager">Managers</a>
+		 
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="/permissions/staff">Staff</a>
+		</li>
 	<li class="nav-item">
         <a class="nav-link" href="/logout">Logout</a>
       </li>
@@ -39,29 +45,3 @@ if (!isset($_SESSION['auth'])) {
 </nav>
 		
 		
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/home">MAP202_Lab8</a>
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <div class="navbar-collapse collapse" id="navbar-main">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </div>
-      
